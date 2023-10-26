@@ -1,0 +1,446 @@
+@charset "UTF-8";
+
+/*共通部分*/
+html{
+    font-size:100%;
+}
+body{
+    font-family:"Montserrat","ヒラギノ角ゴシック";
+    line-height:1.7;
+    color:black;
+}
+a{
+    text-decoration:none;
+}
+img{
+    max-width:100%;
+}
+/*ヘッダー*/
+.logo{
+    width:70px;
+    transform: translateY(-5px);
+   
+
+}
+.main-nav{
+    display:flex;
+    font-size:1.25rem;
+    text-transform:uppercase ;
+    margin-top:14px;
+    list-style:none;
+    text-transform: none;
+}
+.main-nav li{
+    margin-left:36px;
+    margin-top:25px;
+    margin-right:20px;
+}
+.main-nav a{
+    color:#704E4E;
+}
+.main-nav a:hover{
+    color:#B3ADA0;
+}
+.page-header{
+    display:flex;
+    justify-content:space-between;
+    margin:0 auto;
+    padding: 0 4%;
+    background-color:#59b9C6;
+    height:100px;  
+    width:cover;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+/*HOME*/
+.home-contents{
+    text-align: right;
+    margin-top:10%;
+}
+/*見出し*/
+.page-title{
+    font-size:5rem;
+    font-family:"Montserrat";
+    font-weight: bolder;
+    color:#fff;
+    transform: translateX(-30px);
+    padding-top:1.5em;
+    text-shadow: #fff 2px 0, #fff -2px 0, #fff 0 -2px, #fff 0 2px, #fff 2px 2px, #fff -2px 2px, #fff 2px -2px, #fff -2px -2px, #fff 1px 2px, #fff -1px 2px, #fff 1px -2px, #fff -1px -2px, #fff 2px 1px, #fff -2px 1px, #fff 2px -1px, #fff -2px -1px, rgba(0, 0, 0, .5) 3px 3px 3px;
+}
+
+
+/*大きな背景画像*/
+.big-bg{
+    background-size:cover;
+    background-position: center top;
+    width:100%;
+}
+#home{
+    background-image: url(images/sitetop.png);
+    min-height:100vh;
+
+}
+#home .page-title{
+    text-transform: none;
+}
+/*About me*/
+.big-bg1{
+   height:800px;
+   background-size:cover ;
+}
+.about-wrapper{
+    text-align: center;
+}
+.item{
+     margin-left:100px;
+     width: 400px;
+     
+}
+.introduction{
+    margin-top:10px;
+    margin-right:100px;
+    width:600px;
+    transform: translate(500px,-400px);
+    text-align: center;
+}
+.name{
+    font-size:40px;
+    margin-top:0;
+}
+.introduction p{
+    font-size:25px;
+}
+.about-title span{
+    color: #59b9C6;
+    text-decoration:underline;
+    font-size:110px;
+    opacity:0.6;
+    display:inline-block;
+    transform: translate(40px);
+}
+.about-title{
+    font-size:70px;
+}
+.aboutme{
+    margin:0 100px 50px 100px;
+    padding:0;
+    
+}
+/*Skills*/
+.skills-wrapper{
+    text-align: center;
+    height:800px;
+}
+.skills-title{
+    text-align: center;
+    font-size: 70px;
+}
+.skills-title span{
+    color: #59b9C6;
+    text-decoration:underline;
+    font-size:110px;
+    opacity:0.6;
+}
+.item2{
+    transform: translateX(700px);
+    width:500px;
+
+}
+.skills{
+    width:300px;
+    margin-left:250px;
+    transform: translateY(-400px);
+}
+.skills h2{
+    font-size:30px;
+    font-weight: bold;
+}
+.skills p{
+    font-size:25px;
+}
+/*Works*/
+.works-wrapper{
+    text-align: center;
+    height:600px;
+
+}
+.works-title{
+    text-align: center;
+    font-size: 70px;
+}
+.works-title span{
+    color: #59b9C6;
+    text-decoration:underline;
+    font-size:110px;
+    opacity:0.6;
+}
+.item3{
+    display: flex;
+    margin:0 100px 50px 100px;
+}
+
+.box{
+    background-color: #f4ecdb;
+    width:500px;
+    height:300px;
+    margin:0 100px;
+    transform: translateX(-80px);
+    
+}
+.box2{
+    background-color: #f4ecdb;
+    width:500px;
+    height:300px;
+}
+.website1{
+    transform: translateY(40px);
+    height:220px;
+    width:469px;
+}
+.website1:hover{
+    background-color: #704E4E;
+    opacity:0.7;
+}
+.website2{
+    transform: translateY(40px);
+    height:220px;
+    width:469px;
+}
+.website2:hover{
+    background-color: #704E4E;
+    opacity:0.7;
+
+}
+.site-title{
+    font-size:20px;
+    transform: translateY(70px);
+}
+.site-title2{
+    font-size:20px;
+    transform: translateY(70px);
+}
+/*Contact*/
+.contact{
+    text-align:center;
+}
+.contact-title{
+    text-align: center;
+    font-size: 70px;
+}
+.contact-title span{
+    color: #59b9C6;
+    text-decoration:underline;
+    font-size:110px;
+    opacity:0.6;
+}
+form div{
+    margin-bottom:14px;
+}
+label{
+    font-size:1.125rem;
+    margin-bottom:10px;
+    display:block;
+}
+input[type="text"],input[type="email"],textarea{
+    background-color:#f4ecdb ;
+    border:none;
+    border-radius: 0;
+    padding:10px;
+    font-size:30px;
+    margin:10px auto;
+    
+}
+input[type="text"],input[type="email"]{
+    width:100%;
+    max-width:736px;
+   
+
+}
+textarea{
+    width:100%;
+    max-width:736px;
+    height:300px;
+ 
+}
+input[type="submit"]{
+    border:none;
+    cursor:pointer;
+    line-height:1;
+}
+input:focus{
+    outline:#704E4E 2px solid;
+  }
+textarea:focus{
+    outline:#704E4E 2px solid;
+}
+.button{
+    background-color: #f4ecdb;
+    height:40px;
+    width:100px;
+    margin: 10px 0 20px 0;
+}
+.button value{
+    text-align: center;
+    font-size:30px;
+}
+.buttom :hover{
+    background-color: #B3ADA0;
+}
+/*footer*/
+footer{
+    background: #59b9c6;
+    text-align:center;
+    padding:26px 0;
+    width:100%;
+    
+}
+footer p{
+    color:#704E4E;
+    font-size:0.875rem;
+}
+
+/*モバイル版*/
+@media(max-width:600px){
+    /*Header*/
+    .main-nav{
+        font-size:0.75rem;
+        margin-top:10px;
+    }
+    .main-nav li{
+        margin-top:0 20px;
+        transform:translate(-26px,-55px);
+        
+    }
+    .page-header{
+        flex-direction:column;
+        align-items: center;
+        height:67px;
+    }
+    .logo{
+       display:none;
+    }
+    
+    /*見出し*/
+    .page-title{
+        font-size:30px;
+        text-shadow: none;
+        -webkit-text-stroke: 0.8px #704E4E;
+    }
+    
+    /*大きい背景*/
+    .big-bg{
+        background-size:contain;
+        background-repeat:repeat;
+    }
+    #home{
+         min-height:300px;
+        }
+    
+    /*About me*/
+    .big-bg1{
+        text-align:center;
+        height:600px;
+    }
+    .item{
+         width: 200px;
+         transform:translate(-115px)   
+    }
+    .introduction{
+        transform:translate(-200px);
+    }
+    .introduction p{
+        font-size:18px;
+        text-align:center;
+    }
+    .about-title span{
+        font-size:40px;
+        transform:translateX(0px);
+    }
+    .about-title{
+        font-size:30px;
+    }
+        
+    /*Skills*/
+    .skills-wrapper{
+        margin:0 auto;
+        height:650px;
+    }
+    .skills-title{
+        text-align: center;
+        font-size: 30px;
+    }
+    .skills-title span{
+        font-size:40px;
+    }
+    .item2{
+        transform:translateX(90px);
+        width:200px;
+    
+    }
+    .skills{
+        transform: translate(-200px,40px);
+    }
+    .skills h2{
+        font-size:25px;
+    }
+    .skills p{
+        font-size:20px;
+    }
+    /*Works*/
+.works-wrapper{
+    height:800px;
+
+}
+.works-title{
+    font-size: 30px;
+}
+.works-title span{
+    font-size: 40px;
+}
+.item3{
+    display: block;
+}
+
+.box{
+    width:400px;
+    height:300px;
+    margin-bottom:100px;
+    transform:translate(-195px);
+}
+.box2{
+    width:400px;
+    height:300px;
+    transform:translate(-95px);
+    
+}
+.website1{
+    height:220px;
+    width:fit-content;
+}
+.website2{
+    height:220px;
+    width:fit-content;
+}
+.site-title{
+    font-size:15px;
+    margin-top:80px;
+    transform:translate(0);
+}
+.site-title2{
+    font-size:15px;
+    margin-top:80px;
+    transform:translate(0);
+}
+/*Contact*/
+.contact-title{
+    font-size: 30px;
+}
+.contact-title span{
+    font-size:40px;
+}
+
+    }
