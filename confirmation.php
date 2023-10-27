@@ -27,6 +27,13 @@
 
 <input type="submit" value="Submit" />
 </form>
+    
+ <!-- formからデータを受け取る -->
+    <?php
+    echo $_POST['name'].'<br>';
+    echo $_POST['email'].'<br>';
+    echo $_POST['message'].'<br>';
+    ?>
 
 </body>
     
