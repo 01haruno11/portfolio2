@@ -188,7 +188,7 @@ header{
 } 
 .website{
     padding:20px;
-    background-color:#4fecdb;
+    background-color:#f4ecdb ;
 }
 .website:hover{
     background-color: #704E4E;
@@ -319,6 +319,7 @@ footer p{
     }
     #home{
          background-image: url(images/sitetop2.png);
+         height:350px;
         }
     
     /*About me*/
