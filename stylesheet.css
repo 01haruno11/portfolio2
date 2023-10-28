@@ -183,7 +183,7 @@ header{
 }
 
 .box{
-    width:45%;
+    width:40%;
     margin:0 auto;
 } 
 .website{
@@ -383,16 +383,19 @@ footer p{
 .works-title span{
     font-size: 40px;
 }
+.box{
+display:block;
+}
 .site-title{
     font-size:13px;
     margin-top:0px;
-    margin-left:10px;
+    margin-left:20px;
     transform:translate(0);
 }
 .site-title2{
     font-size:13px;
     margin-top:0px;
-    margin-left:10px;
+    margin-left:40px;
     transform:translate(0);
 }
 /*Contact*/
