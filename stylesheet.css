@@ -164,7 +164,7 @@ header{
 /*Works*/
 .works-wrapper{
     text-align: center;
-    height:750px;
+    height:900px;
 
 }
 .works-title{
@@ -183,7 +183,7 @@ header{
 }
 
 .box{
-    width:40%;
+    width:45%;
     margin:0 auto;
 } 
 .website{
@@ -196,11 +196,13 @@ header{
 }
 .site-title{
     font-size:20px;
-    transform: translateY(70px);
+    margin-top:5px;
+    margin-bottom:50px;
 }
 .site-title2{
     font-size:20px;
-    transform: translateY(70px);
+    margin-top:5px;
+    margin-bottom:50px;
 }
 /*Contact*/
 .contact{
