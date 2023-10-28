@@ -204,6 +204,9 @@ header{
     margin-top:5px;
     margin-bottom:50px;
 }
+.site-title3{
+    display:none;
+}
 /*Contact*/
 .contact{
     text-align:center;
@@ -387,6 +390,9 @@ footer p{
 display:block;
 }
 .site-title{
+    display:none;
+}
+.site-title3{
     font-size:13px;
     margin-top:0px;
     margin-left:20px;
