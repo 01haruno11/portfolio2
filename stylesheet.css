@@ -179,40 +179,20 @@ header{
 }
 .item3{
     display: flex;
-    margin:0 100px 50px 100px;
+    justify-content:center;
 }
 
 .box{
-    background-color: #f4ecdb;
-    width:500px;
-    height:300px;
-    margin:0 100px;
-    transform: translateX(-80px);
-    
+    width:40%;
+    margin:0 auto;
+} 
+.website{
+    padding:20px;
+    background-color:#4fecdb;
 }
-.box2{
-    background-color: #f4ecdb;
-    width:500px;
-    height:300px;
-}
-.website1{
-    transform: translateY(40px);
-    height:220px;
-    width:469px;
-}
-.website1:hover{
+.website:hover{
     background-color: #704E4E;
     opacity:0.7;
-}
-.website2{
-    transform: translateY(40px);
-    height:220px;
-    width:469px;
-}
-.website2:hover{
-    background-color: #704E4E;
-    opacity:0.7;
-
 }
 .site-title{
     font-size:20px;
@@ -333,10 +313,10 @@ footer p{
     /*大きい背景*/
     .big-bg{
         background-size:contain;
-        background-repeat:repeat;
+        background-repeat:no-repeat;
     }
     #home{
-         min-height:300px;
+         background-image: url(images/sitetop2.png);
         }
     
     /*About me*/
@@ -399,30 +379,6 @@ footer p{
 }
 .works-title span{
     font-size: 40px;
-}
-.item3{
-    display: block;
-}
-
-.box{
-    width:400px;
-    height:300px;
-    margin-bottom:100px;
-    transform:translate(-195px);
-}
-.box2{
-    width:400px;
-    height:300px;
-    transform:translate(-95px);
-    
-}
-.website1{
-    height:220px;
-    width:fit-content;
-}
-.website2{
-    height:220px;
-    width:fit-content;
 }
 .site-title{
     font-size:15px;
