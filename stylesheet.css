@@ -8,6 +8,7 @@ body{
     font-family:"Montserrat","ヒラギノ角ゴシック";
     line-height:1.7;
     color:black;
+    padding:0px;
 }
 a{
     text-decoration:none;
