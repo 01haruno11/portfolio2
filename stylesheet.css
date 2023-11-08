@@ -371,9 +371,10 @@ footer p{
     
     /*見出し*/
     .page-title{
-        font-size:30px;
+        font-size:2.5rem;
         text-shadow: none;
         -webkit-text-stroke: 0.8px #704E4E;
+        transform:translate(-2rem,2.2rem);
     }
     
     /*大きい背景*/
@@ -387,7 +388,7 @@ footer p{
         }
     
     /*About me*/
-    .big-bg1{
+    .about-wrapper{
         text-align:center;
         height:600px;
     }
