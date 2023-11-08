@@ -142,7 +142,7 @@ header{
     opacity:0.6;
 }
 .item2{
-    transform: translateX(700px);
+    transform: translateX(37em);
     width:500px;
 
 }
@@ -151,12 +151,22 @@ header{
     margin-left:250px;
     transform: translateY(-400px);
 }
-.skills h2{
-    font-size:30px;
+.skills1{
+    font-size:35px;
     font-weight: bold;
 }
-.skills p{
+.skills2{
     font-size:25px;
+}
+.skills3{
+    font-size:35px;
+    font-weight: bold;
+}
+.skills4{
+    font-size:25px;
+}
+.skills-contents{
+    transform:translate(-18em,-30em)
 }
 /*Works*/
 .works-wrapper{
