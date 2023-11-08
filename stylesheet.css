@@ -88,23 +88,20 @@ header{
     text-transform: none;
 }
 /*About me*/
-.big-bg1{
-   height:800px;
-   background-size:cover ;
-}
 .about-wrapper{
-    text-align: center;
+   height:55em;
+   background-size:cover ;
+   text-align: center;
 }
+
 .item{
      margin-left:100px;
      width: 400px;
      
 }
 .introduction{
-    margin-top:10px;
-    margin-right:100px;
     width:600px;
-    transform: translate(500px,-400px);
+    transform: translate(35em,-32em);
     text-align: center;
 }
 .name{
