@@ -214,10 +214,12 @@ header{
 /*Contact*/
 .contact{
     text-align:center;
+    heighr:55em;
 }
 .contact-title{
     text-align: center;
     font-size: 70px;
+    marfin-bottom:0p;
 }
 .contact-title span{
     color: #59b9C6;
@@ -245,7 +247,7 @@ input[type="text"],input[type="email"],textarea{
 input[type="text"],input[type="email"]{
     width:100%;
     max-width:736px;
-   
+   font-size:1.2rem;
 
 }
 textarea{
@@ -258,27 +260,16 @@ input[type="submit"]{
     border:none;
     cursor:pointer;
     line-height:1;
+    width:200px;
+    transform:translateX(8em);
 }
 input:focus{
     outline:#704E4E 2px solid;
+    background-color: #B3ADA0;
   }
 textarea:focus{
     outline:#704E4E 2px solid;
 }
-.button{
-    background-color: #f4ecdb;
-    height:40px;
-    width:100px;
-    margin: 10px 0 20px 0;
-}
-.button value{
-    text-align: center;
-    font-size:30px;
-}
-.buttom :hover{
-    background-color: #B3ADA0;
-}
-
 
 form {
   width: 50%;
@@ -293,7 +284,7 @@ input, textarea {
   border: none;
   margin: 0.5rem 0;
   padding: 0.5rem 1rem;
-  border-radius: 0.3rem;
+  border-radius: 0rem;
   background: #f4ecdb 
   color: darken(#f9f9f9, 50%);
   
