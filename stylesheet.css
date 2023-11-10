@@ -95,21 +95,19 @@ header{
 }
 
 .item{
-     margin-left:100px;
-     width: 400px;
+     width: 45em;
      
 }
 .introduction{
     width:600px;
-    transform: translate(35em,-32em);
     text-align: center;
 }
 .name{
-    font-size:40px;
+    font-size:2rem;
     margin-top:0;
 }
 .introduction p{
-    font-size:25px;
+    font-size:1.5rem;
 }
 .about-title span{
     color: #59b9C6;
@@ -121,10 +119,11 @@ header{
 .about-title{
     font-size:70px;
 }
-.aboutme{
+.about-container{
     margin:0 100px 50px 100px;
     padding:0;
-    
+    display: flex;
+    justify-content: center;
 }
 /*Skills*/
 .skills-wrapper{
@@ -141,10 +140,9 @@ header{
     font-size:110px;
     opacity:0.6;
 }
-.item2{
-    transform: translateX(45em);
-    width:500px;
-
+.skills-container{
+    display: flex;
+    justify-content: center;
 }
 .skills{
     width:300px;
@@ -165,9 +163,7 @@ header{
 .skills4{
     font-size:25px;
 }
-.skills-contents{
-    transform:translate(-18em,-30em)
-}
+
 /*Works*/
 .works-wrapper{
     text-align: center;
@@ -184,7 +180,7 @@ header{
     font-size:110px;
     opacity:0.6;
 }
-.item3{
+.works-container{
     display: flex;
     justify-content:center;
 }
@@ -214,18 +210,22 @@ header{
 /*Contact*/
 .contact{
     text-align:center;
-    heighr:55em;
+    height:40em;
 }
 .contact-title{
     text-align: center;
     font-size: 70px;
-    marfin-bottom:0p;
+    margin-bottom:0px;
 }
 .contact-title span{
     color: #59b9C6;
     text-decoration:underline;
     font-size:110px;
     opacity:0.6;
+}
+.contact-container{
+    transform: translatey(-5em);
+
 }
 form div{
     margin-bottom:14px;
@@ -286,10 +286,9 @@ input, textarea {
   padding: 0.5rem 1rem;
   border-radius: 0rem;
   background: #f4ecdb 
-  color: darken(#f9f9f9, 50%);
+}
   
   &[type=submit] {
-    background: $green;
     color: #fff;
     width: auto;
     float: right;
@@ -299,19 +298,12 @@ input, textarea {
     color: darken(#f9f9f9, 50%);
   }
 
-  &.error {
-    background: #red;
-    color: #fff;
-    &::placeholder {
-      color: darken(#red, 60%); 
-    }
-  }
-}
 textarea {
   height: 10rem;
 }
 .captcha {
   float:left;
+}
   input {
     float: right;
   }
@@ -468,5 +460,4 @@ display:block;
 .contact-title span{
     font-size:40px;
 }
-
-    }
+}
