@@ -51,8 +51,12 @@ img{
     width:cover;
 }
 header{
-    position: sticky;
+    position: fixed;
     top: 0;
+    left:0;
+    width:100%;
+    padding:20px 40px;
+    box-sizing:border-box;
     z-index: 999;
 }
 
@@ -63,11 +67,11 @@ header{
 }
 /*見出し*/
 .page-title{
-    font-size:5rem;
+    font-size:4rem;
     font-family:"Montserrat";
     font-weight: bolder;
     color:#fff;
-    transform: translateX(-30px);
+    float: right;
     padding-top:1.5em;
     text-shadow: #fff 2px 0, #fff -2px 0, #fff 0 -2px, #fff 0 2px, #fff 2px 2px, #fff -2px 2px, #fff 2px -2px, #fff -2px -2px, #fff 1px 2px, #fff -1px 2px, #fff 1px -2px, #fff -1px -2px, #fff 2px 1px, #fff -2px 1px, #fff 2px -1px, #fff -2px -1px, rgba(0, 0, 0, .5) 3px 3px 3px;
 }
@@ -78,10 +82,11 @@ header{
     background-size:cover;
     background-position: center top;
     width:100%;
+    margin-top:0;
 }
 #home{
     background-image: url(images/sitetop.png);
-    min-height:100vh;
+    min-height: 100vh;
 
 }
 #home .page-title{
@@ -92,22 +97,6 @@ header{
    height:55em;
    background-size:cover ;
    text-align: center;
-}
-
-.item{
-     width: 45em;
-     
-}
-.introduction{
-    width:600px;
-    text-align: center;
-}
-.name{
-    font-size:2rem;
-    margin-top:0;
-}
-.introduction p{
-    font-size:1.5rem;
 }
 .about-title span{
     color: #59b9C6;
@@ -124,11 +113,27 @@ header{
     padding:0;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+    .item{
+        width: 45em;
+        
+   }
+   .introduction{
+       width:600px;
+       text-align: center;
+   }
+   .name{
+       font-size:2rem;
+       margin-top:0;
+   }
+   .introduction p{
+       font-size:1.5rem;
 }
 /*Skills*/
 .skills-wrapper{
     text-align: center;
-    height:900px;
+    height:650px;
 }
 .skills-title{
     text-align: center;
@@ -143,11 +148,10 @@ header{
 .skills-container{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-.skills{
-    width:300px;
-    margin-left:250px;
-    transform: translateY(-400px);
+.pc-icon{
+    width:250px;
 }
 .skills1{
     font-size:35px;
@@ -304,9 +308,6 @@ textarea {
 .captcha {
   float:left;
 }
-  input {
-    float: right;
-  }
   input[name=question] {
     width: 4rem;
     border-top-right-radius: 0;
@@ -323,6 +324,14 @@ textarea {
       text-align: center;
     }
   }
+  input::placeholder{
+    font-family:Montserrat;
+     font-size:15px;
+   }
+   textarea::placeholder{
+    font-family:Montserrat;
+     font-size:15px;
+   }   
 
 
 /*footer*/
@@ -361,10 +370,9 @@ footer p{
     
     /*見出し*/
     .page-title{
-        font-size:2.5rem;
+        font-size:2rem;
         text-shadow: none;
         -webkit-text-stroke: 0.8px #704E4E;
-        transform:translate(-2rem,2.2rem);
     }
     
     /*大きい背景*/
@@ -374,7 +382,7 @@ footer p{
     }
     #home{
          background-image: url(images/sitetop2.png);
-         height:350px;
+         min-height:30vh;
         }
     
     /*About me*/
@@ -382,12 +390,11 @@ footer p{
         text-align:center;
         height:600px;
     }
+    .about-container{
+        display: block;
+    }
     .item{
          width: 200px;
-         transform:translate(-115px)   
-    }
-    .introduction{
-        transform:translate(-200px);
     }
     .introduction p{
         font-size:18px;
@@ -406,6 +413,9 @@ footer p{
         margin:0 auto;
         height:650px;
     }
+    .skills-container{
+        display: block;
+    }
     .skills-title{
         text-align: center;
         font-size: 30px;
@@ -413,13 +423,9 @@ footer p{
     .skills-title span{
         font-size:40px;
     }
-    .item2{
+    .pc-icon{
         transform:translateX(90px);
         width:200px;
-    
-    }
-    .skills{
-        transform: translate(-200px,40px);
     }
     .skills h2{
         font-size:25px;
@@ -430,7 +436,9 @@ footer p{
     /*Works*/
 .works-wrapper{
     height:300px;
-
+}
+.works-container{
+    display: block;
 }
 .works-title{
     font-size: 30px;
